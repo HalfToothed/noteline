@@ -1,0 +1,14 @@
+/home/fibonacci/Desktop/Git/noteline/bin/Debug/net7.0/noteline
+/home/fibonacci/Desktop/Git/noteline/bin/Debug/net7.0/noteline.deps.json
+/home/fibonacci/Desktop/Git/noteline/bin/Debug/net7.0/noteline.runtimeconfig.json
+/home/fibonacci/Desktop/Git/noteline/bin/Debug/net7.0/noteline.dll
+/home/fibonacci/Desktop/Git/noteline/bin/Debug/net7.0/noteline.pdb
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.GeneratedMSBuildEditorConfig.editorconfig
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.AssemblyInfoInputs.cache
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.AssemblyInfo.cs
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.csproj.CoreCompileInputs.cache
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.dll
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/refint/noteline.dll
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.pdb
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/noteline.genruntimeconfig.cache
+/home/fibonacci/Desktop/Git/noteline/obj/Debug/net7.0/ref/noteline.dll
