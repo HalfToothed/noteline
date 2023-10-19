@@ -1,5 +1,8 @@
-﻿using Note;
-using System.Text.Json;
+﻿using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using Note;
+using Data;
+
 
 namespace NoteLine
 {
@@ -7,30 +10,30 @@ namespace NoteLine
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("NoteLine >");
-            string content =  Console.ReadLine();
-
-            NoteContent note = new NoteContent();
-
-            note.Content = content;
-            note.TimeStamp = DateTime.Now;
             
-       
+            Console.WriteLine("NoteLine >");
+            string input = Console.ReadLine();
 
-            string filePath = "/home/fibonacci/Desktop/Git/noteline/content.json";
-            try{
-                
-                string jsonData = JsonSerializer.Serialize(note);
-                Console.WriteLine(jsonData);
-            File.WriteAllText(filePath, jsonData);
-
-            }
-            catch(Exception ex)
+            switch (input)
             {
-                Console.WriteLine("An error occurred: " + ex.Message);
-            }
+                case "create":
+                    Factory.Create();
+                    break;
+
+                case "read":
+                    Factory.Read();
+                    break;
+
+                case "delete": 
+                    Factory.Delete();
+                    break;
+
+                case "del":
+                    Factory.Del();
+                    break;
+            };
+
         }
 
     }
-
 }
