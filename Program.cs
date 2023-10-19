@@ -3,36 +3,43 @@ using System.Threading.Tasks;
 using Note;
 using Data;
 
-
 namespace NoteLine
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            
-            Console.WriteLine("NoteLine >");
-            string input = Console.ReadLine();
+            bool run = true;
 
-            switch (input)
+            while (run)
             {
-                case "create":
-                    Factory.Create();
-                    break;
+                Console.WriteLine();
+                Console.WriteLine("NoteLine > create - read - del - delete - exit");
+                string input = Console.ReadLine();
 
-                case "read":
-                    Factory.Read();
-                    break;
+                switch (input)
+                {
+                    case "create":
+                        Factory.Create();
+                        break;
 
-                case "delete": 
-                    Factory.Delete();
-                    break;
+                    case "read":
+                        Factory.Read();
+                        break;
 
-                case "del":
-                    Factory.Del();
-                    break;
-            };
+                    case "delete":
+                        Factory.Delete();
+                        break;
 
+                    case "del":
+                        Factory.Del();
+                        break;
+
+                    case "exit":
+                        run = false;
+                        break;
+                };
+            }
         }
 
     }
